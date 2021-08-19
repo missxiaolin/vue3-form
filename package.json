@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build:example": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue3-form-render --dest lib packages/index.jsx",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
