@@ -3,6 +3,7 @@ import XLSX from 'xlsx';
 import { getSubSchemas, resolve, clone, validate, convertValue } from '../utils';
 import input from './input';
 import url from './url'
+import color from './color';
 
 const reader = new FileReader();
 
@@ -265,7 +266,8 @@ const widgets = {
     map: index,
     array,
     input,
-    url
+    url,
+    color
 }
 
 export {
