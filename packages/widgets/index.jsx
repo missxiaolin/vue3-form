@@ -6,6 +6,7 @@ import url from './url'
 import color from './color';
 import date from './date';
 import image from './image';
+import number from './number';
 
 const reader = new FileReader();
 
@@ -271,7 +272,8 @@ const widgets = {
     url,
     color,
     date,
-    image
+    image,
+    number
 }
 
 export {
