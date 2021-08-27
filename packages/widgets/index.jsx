@@ -5,6 +5,7 @@ import input from './input';
 import url from './url'
 import color from './color';
 import date from './date';
+import image from './image';
 
 const reader = new FileReader();
 
@@ -269,7 +270,8 @@ const widgets = {
     input,
     url,
     color,
-    date
+    date,
+    image
 }
 
 export {
