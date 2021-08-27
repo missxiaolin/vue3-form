@@ -4,6 +4,7 @@ import { getSubSchemas, resolve, clone, validate, convertValue } from '../utils'
 import input from './input';
 import url from './url'
 import color from './color';
+import date from './date';
 
 const reader = new FileReader();
 
@@ -267,7 +268,8 @@ const widgets = {
     array,
     input,
     url,
-    color
+    color,
+    date
 }
 
 export {
