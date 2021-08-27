@@ -1,6 +1,7 @@
 import Draggable from "vue3-form-render-vuedraggable";
 import XLSX from 'xlsx';
 import { getSubSchemas, resolve, clone, validate, convertValue } from '../utils';
+import input from './input';
 
 const reader = new FileReader();
 
@@ -240,13 +241,29 @@ const array = {
 }
 
 const mapping = {
+    default: 'input',
+    string: 'input',
+    object: 'map',
     array: 'array',
-    
+    number: 'number',
+    boolean: 'boolean',
+    multiSelect: 'multiSelect',
+    multiCheckbox: 'multiCheckbox',
+    'range:dateTime': 'range',
+    'string:email': 'input',
+    'string:textarea': 'input',
+    'string:url': 'url',
+    'string:color': 'color',
+    'string:image': 'image',
+    'string:date': 'date',
+    'string:richText': 'richText',
+
 }
 
 const widgets = {
     map: index,
-    array
+    array,
+    input
 }
 
 export {
