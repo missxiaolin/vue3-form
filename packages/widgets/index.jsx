@@ -7,6 +7,7 @@ import color from './color';
 import date from './date';
 import image from './image';
 import number from './number';
+import boolean from './boolean';
 
 const reader = new FileReader();
 
@@ -273,7 +274,8 @@ const widgets = {
     color,
     date,
     image,
-    number
+    number,
+    boolean
 }
 
 export {
