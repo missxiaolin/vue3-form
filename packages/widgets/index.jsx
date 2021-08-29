@@ -8,6 +8,7 @@ import date from './date';
 import image from './image';
 import number from './number';
 import boolean from './boolean';
+import range from './range';
 
 const reader = new FileReader();
 
@@ -275,7 +276,8 @@ const widgets = {
     date,
     image,
     number,
-    boolean
+    boolean,
+    range
 }
 
 export {
