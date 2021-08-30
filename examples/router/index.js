@@ -7,6 +7,7 @@ import DocsNumber from '../docs/number';
 import DocsBoolean from '../docs/boolean';
 import DocsArray from '../docs/array';
 import DocsList from '../docs/list';
+import DocsObject from '../docs/object';
 
 const routes = [
   {
@@ -38,6 +39,10 @@ const routes = [
         path: 'list',
         component: DocsList
       },
+      {
+        path: 'object',
+        component: DocsObject
+      }
     ]
   }
 ]
