@@ -6,7 +6,7 @@ import DocsString from '../docs/string';
 import DocsNumber from '../docs/number';
 import DocsBoolean from '../docs/boolean';
 import DocsArray from '../docs/array';
-
+import DocsList from '../docs/list';
 
 const routes = [
   {
@@ -33,6 +33,10 @@ const routes = [
       {
         path: 'array',
         component: DocsArray
+      },
+      {
+        path: 'list',
+        component: DocsList
       },
     ]
   }
