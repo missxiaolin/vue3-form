@@ -4,6 +4,7 @@ import DocsIndex from '../docs/docsIndex';
 import Demo from '../docs/demo';
 import DocsString from '../docs/string';
 import DocsNumber from '../docs/number';
+import DocsBoolean from '../docs/boolean';
 
 
 const routes = [
@@ -23,6 +24,10 @@ const routes = [
       {
         path: 'number',
         component: DocsNumber
+      },
+      {
+        path: 'boolean',
+        component: DocsBoolean
       },
     ]
   }
