@@ -9,6 +9,7 @@ import image from './image';
 import number from './number';
 import boolean from './boolean';
 import range from './range';
+import multiSelect from './multiSelect'
 
 const reader = new FileReader();
 
@@ -277,7 +278,8 @@ const widgets = {
     image,
     number,
     boolean,
-    range
+    range,
+    multiSelect
 }
 
 export {
