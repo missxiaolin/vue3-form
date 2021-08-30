@@ -10,6 +10,7 @@ import number from './number';
 import boolean from './boolean';
 import range from './range';
 import multiSelect from './multiSelect'
+import multiCheckbox from './multiCheckbox'
 
 const reader = new FileReader();
 
@@ -279,7 +280,8 @@ const widgets = {
     number,
     boolean,
     range,
-    multiSelect
+    multiSelect,
+    multiCheckbox
 }
 
 export {
