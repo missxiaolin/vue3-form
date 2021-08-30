@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 import DocsIndex from '../docs/docsIndex';
 import Demo from '../docs/demo';
+import DocsString from '../docs/string';
 
 
 const routes = [
@@ -13,6 +14,10 @@ const routes = [
       {
         path: 'demo',
         component: Demo
+      },
+      {
+        path: 'string',
+        component: DocsString
       },
     ]
   }
