@@ -9,6 +9,9 @@ import DocsArray from '../docs/array';
 import DocsList from '../docs/list';
 import DocsObject from '../docs/object';
 
+import DemoIndex from '../demos/demoIndex';
+import Simple from '../demos/simple';
+
 const routes = [
   {
     name: 'docs',
@@ -43,6 +46,22 @@ const routes = [
         path: 'object',
         component: DocsObject
       }
+    ]
+  },
+  {
+    name: 'demo',
+    path: '/demo',
+    component: DemoIndex,
+    children: [
+      {
+        path: '/:pathMatch(.*)*',
+        component: Simple
+      },
+      {
+        path: '',
+        name: 'simple',
+        component: Simple
+      },
     ]
   }
 ]
