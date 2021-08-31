@@ -49,8 +49,8 @@ const routes = [
     ]
   },
   {
-    name: 'demo',
-    path: '/demo',
+    name: 'demos',
+    path: '/',
     component: DemoIndex,
     children: [
       {
@@ -58,7 +58,7 @@ const routes = [
         component: Simple
       },
       {
-        path: '',
+        path: 'simple',
         name: 'simple',
         component: Simple
       },
