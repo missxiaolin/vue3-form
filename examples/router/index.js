@@ -12,6 +12,7 @@ import DocsObject from '../docs/object';
 import DemoIndex from '../demos/demoIndex';
 import Simple from '../demos/simple';
 import All from '../demos/all';
+import Links from '../demos/links'
 
 const routes = [
   {
@@ -63,6 +64,11 @@ const routes = [
         path: '/all',
         name: 'all',
         component: All
+      },
+      {
+        path: '/links',
+        name: 'links',
+        component: Links
       },
       {
         path: '/:pathMatch(.*)*',
