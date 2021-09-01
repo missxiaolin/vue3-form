@@ -13,6 +13,7 @@ import DemoIndex from '../demos/demoIndex';
 import Simple from '../demos/simple';
 import All from '../demos/all';
 import Links from '../demos/links'
+import Object from '../demos/object';
 
 const routes = [
   {
@@ -69,6 +70,11 @@ const routes = [
         path: '/links',
         name: 'links',
         component: Links
+      },
+      {
+        path: '/object',
+        name: 'object',
+        component: Object
       },
       {
         path: '/:pathMatch(.*)*',
