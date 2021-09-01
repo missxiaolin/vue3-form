@@ -15,6 +15,7 @@ import All from '../demos/all';
 import Links from '../demos/links'
 import Object from '../demos/object';
 import String from '../demos/string';
+import Multi from '../demos/multi';
 
 const routes = [
   {
@@ -81,6 +82,11 @@ const routes = [
         path: '/string',
         name: 'string',
         component: String
+      },
+      {
+        path: '/multi',
+        name: 'multi',
+        component: Multi
       },
       {
         path: '/:pathMatch(.*)*',
