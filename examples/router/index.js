@@ -101,6 +101,11 @@ const routes = [
         component: RichText
       },
       {
+        path: '/object',
+        name: 'object',
+        component: DocsObject
+      },
+      {
         path: '/:pathMatch(.*)*',
         component: Simple
       },
