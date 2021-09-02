@@ -1,7 +1,6 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -15,5 +14,10 @@
   },
   "dependencies": {
     "kaer-form-render": "^1.1.5"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "description": ""
 }
