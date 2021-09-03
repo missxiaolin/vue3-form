@@ -10,11 +10,16 @@ module.exports = {
     },
     themeConfig: {
         nav: [ // 导航栏配置
-            { text: '前端基础', link: '/accumulate/' },
-            { text: '算法题库', link: '/algorithm/' },
-            { text: '微博', link: 'https://baidu.com' }
+            { text: '教程', link: '/guide/' },
+            { text: '示例', link: '' },
         ],
-        sidebar: 'auto', // 侧边栏配置
-        sidebarDepth: 2, // 侧边栏显示2级
+        sidebar: [
+            {
+                title: '教程',   // 必要的
+                path: '/guide/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+            },
+        ], // 侧边栏配置
+        // sidebarDepth: 2, // 侧边栏显示2级
     }
 };
