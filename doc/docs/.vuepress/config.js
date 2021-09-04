@@ -30,6 +30,11 @@ module.exports = {
                         title: 'string',
                         path: '/component/string'
                     },
+                    {
+                        title: 'number',
+                        path: '/component/number'
+                    },
+                    
                 ]
             },
         ], // 侧边栏配置
