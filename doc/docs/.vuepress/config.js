@@ -23,6 +23,15 @@ module.exports = {
                 title: '开始使用',
                 path: '/start/',
             },
+            {
+                title: '相关组件',
+                children: [
+                    {
+                        title: 'string',
+                        path: '/component/string'
+                    },
+                ]
+            },
         ], // 侧边栏配置
         // sidebarDepth: 2, // 侧边栏显示2级
     }
