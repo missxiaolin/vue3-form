@@ -34,7 +34,10 @@ module.exports = {
                         title: 'number',
                         path: '/component/number'
                     },
-                    
+                    {
+                        title: 'boolean',
+                        path: '/component/boolean'
+                    },
                 ]
             },
         ], // 侧边栏配置
