@@ -38,6 +38,10 @@ module.exports = {
                         title: 'boolean',
                         path: '/component/boolean'
                     },
+                    {
+                        title: 'array',
+                        path: '/component/array'
+                    },
                 ]
             },
         ], // 侧边栏配置
