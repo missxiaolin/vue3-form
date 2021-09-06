@@ -48,7 +48,15 @@ module.exports = {
                     }
                 ]
             },
-        ], // 侧边栏配置
-        // sidebarDepth: 2, // 侧边栏显示2级
+        ],
+        // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
+        repo: 'https://github.com/missxiaolin/vue3-form',
+        // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
+        // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
+        repoLabel: 'Github',
+        // 默认是 false, 设置为 true 来启用
+        editLinks: true,
+        // 默认为 "Edit this page"
+        editLinkText: '帮助我们改善此页面！'
     }
 };
