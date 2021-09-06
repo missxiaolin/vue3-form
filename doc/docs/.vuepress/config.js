@@ -42,6 +42,10 @@ module.exports = {
                         title: 'array',
                         path: '/component/array'
                     },
+                    {
+                        title: 'object',
+                        path: '/component/object'
+                    }
                 ]
             },
         ], // 侧边栏配置
